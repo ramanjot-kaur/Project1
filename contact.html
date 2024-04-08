@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
+    <title>Old Radios Emporium</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- Header section including site title and navigation links -->
+    <header>
+        <h1>Welcome to Old Radios Emporium</h1>
+        <!-- Navigation menu -->
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./product.html">Products</a>
+            <!-- Corrected the href attribute for the contact link -->
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Contact section -->
+    <section id="contact">
+        
+        <div id="feedback-form">
+            <!-- Contact Form Header -->
+            <h2 class="header">Contact Today</h2>
+            <!-- Contact Form -->
+            <div>
+                <form id="contactForm" method="post" action="./index.html">
+                    <!-- Email input field -->
+                    <input type="text" name="email" id="email" placeholder="Email" required></input>
+                    <!-- Name input field -->
+                    <input type="text" name="name" id="name" placeholder="Name" required></input>
+                    <!-- Checkbox for notification -->
+                    <label for="feedback-notify">Save login info </label>
+                    <input type="checkbox" id="feedback-notify" name="notify">
+                    <!-- Submit button -->
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section with copyright information -->
+    <footer>
+        <p>&copy; 2023 Old Radios Emporium. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

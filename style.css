@@ -1,0 +1,243 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: url('background.png'); /* Add your own background pattern */
+}
+
+header {
+    background: linear-gradient(to right, #4CAF50, #2196F3);
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background: linear-gradient(to right, #2196F3, #4CAF50);
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 1em;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+image{
+    height: 50%;
+    width:auto ;
+}
+
+.homeHero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.homeHero h2 {
+    color: #333;
+}
+
+.homeHero p {
+    color: #666;
+    line-height: 1.6;
+    font-weight: bold;
+    width: 30%;
+}
+
+.homeHero img{
+    width: 20%;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.homeInfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6e6e6e;
+    height: 300px;
+    margin-top: 30px;
+    border-top: 1px solid red;
+}
+
+.homeInfo h2 {
+    color: #fff;
+
+}
+
+.homeInfo p {
+    color: #fff;
+}
+#products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.radio {
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1em;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    text-align: center;
+}
+.radio img {
+    width: 20%;
+    border-radius: 20px;
+    border: 20px;
+}
+button {
+    background: linear-gradient(to right, #ffcc00, #FF5733);
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #FF5733, #ffcc00);
+}
+
+footer {
+    background: linear-gradient(to right, #4CAF50, #2196F3);
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+#feedback-form {
+    width: 280px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px 50px 40px;
+    box-shadow: 1px 4px 10px 1px #ffffff;
+    font-family: sans-serif;
+    margin-top: 30px;
+  }
+  
+  #feedback-form * {
+    box-sizing: border-box;
+  }
+  
+  #feedback-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: Poppins;
+  }
+  
+  #feedback-form input {
+    margin-bottom: 15px;
+    font-family: Poppins;
+  }
+  
+  #feedback-form input[type="text"] {
+    display: block;
+    height: 32px;
+    padding: 6px 16px;
+    width: 100%;
+    border: none;
+    background-color: #f3f3f3;
+    font-family: Poppins;
+  }
+  
+  #feedback-form label {
+    color: #777;
+    font-size: 0.8em;
+    font-family: Poppins;
+  }
+  
+  #feedback-form input[type="checkbox"] {
+    float: left;
+  }
+  
+  #feedback-form input:not(:checked) + #feedback-phone {
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  #feedback-form button {
+    display: block;
+    margin: 20px auto 0;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+    box-shadow: 1px 4px 10px 1px #aaa;
+    background: #207cca; /* Old browsers */
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+
+  
